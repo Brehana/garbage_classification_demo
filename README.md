@@ -61,9 +61,3 @@ A stronger **teaching CNN** designed for better accuracy:
 ## 📦 Dataset
 
 Uses the [Garbage Classification dataset](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification) from Kaggle (~2,500 images across 6 classes), downloaded automatically via `kagglehub`.
-
-## 🔧 Edge Deployment
-
-The exported `.tflite` model is compatible with:
-- **OpenMV + Ethos-U55** (via `CustomObjects_OpenMV_AE3_EthosU55.ipynb`)
-- **OpenMV + Neural-ART** (via `CustomObjects_OpenMV_N6_NeuralART.ipynb`)
